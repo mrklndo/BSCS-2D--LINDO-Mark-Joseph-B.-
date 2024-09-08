@@ -69,10 +69,8 @@ h4{
 form{
   width: 600px;
   border: 10px solid black;
-  margin-left:150px;
-  margin-right: 150px;
-  margin-top: 20px;
-  padding: 30px;
+  margin: 20px;
+  padding: auto;
   background-color: aqua ;
 }
 
