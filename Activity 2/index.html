@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Menu/Forms</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+      <div class="Order">
+      <h1>Grill & Thrill Burgers</h1>
+      <h3>MENU</h3>
+<hr>
+ <section>
+   <h2>Burger</h2> 
+      <article class="Flavor">
+        <p class="Burger">Classic Burger</p>
+        <p class="Price">49</p>
+      </article>
+      
+     <article class="Flavor">
+       <p class="Burger">Veggie Burger</p>
+       <p class="Price">59</p>
+     </article>
+  
+     <article class="Flavor">
+      <p class="Burger">Cheese Burger</p>
+      <p class="Price">69</p>
+     </article>
+      
+     <article class="Flavor">
+      <p class="Burger">Bacon Cheese Burger</p>
+      <p class="Price">99</p>
+     </article>
+      
+</section>  
+ <section>
+    <h2>Fries</h2> 
+     <article class="Flavor">
+       <p class="Fries">Twister Potato</p>
+       <p class="Price">69</p>
+     </article>
+      
+     <article class="Flavor">
+       <p class="Fries">Sour Cream & Onion</p>
+       <p class="Price">79</p>
+     </article>
+  
+     <article class="Flavor">
+       <p class="Fries">Belgian  Fries</p>
+       <p class="Price">89</p>
+     </article>
+      
+     <article class="Flavor">
+       <p class="Fries">Double Fries</p>
+       <p class="Price">109</p>
+     </article>
+      
+</section>
+ <section>
+    <h2>Drinks</h2> 
+   
+     <article class="Flavor">
+       <p class="Drinks">Iced Tea</p>
+       <p class="Price">39</p>
+     </article>
+      
+     <article class="Flavor">
+       <p class="Drinks">Refreshing Lemonade</p>
+       <p class="Price">59</p>
+     </article>
+    
+<hr>
+    <footer>
+       <p>WE ACCEPT DELIVERIES!<br>JUST MESSAGE MY FACEBOOK ACCOUNT<br>FOR MORE INFORMATION</p>
+       <p><a href="https://www.facebook.com/mj.lindo.7?mibextid=ZbWKwL">Facebook<a></a></p>
+    </footer>
+ </section>
+</div>
+<br><br>
+          
+<div>
+  <h4>Form</h4>   
+    <form>
+      <fieldset>
+         <legend>Personal Information</legend>
+         <label for="First Name"> First Name:</label>
+         <input type="text" id="First Name" name="First Name" required>
+     <br><br>
+         <label for="Last Name">Last Name:</label>
+         <input type="text" id="Last Name" name="Last Name" required>
+     <br><br>
+         <label for="Email">Email:</label>
+         <input type="text" id="Email" name="Email" required>
+     <br><br>
+         <label for="Date of Birth">Date of Birth:</label>
+         <input type="date" id="Date of Birth" name="Date of Birth" required>
+     <br><br>
+         <label>Gender:</label>
+         <input type="radio" name="gender" value="Male" id="Male">
+         <label for="Male">Male</label>
+         <input type="radio" name="gender" value="Female" id="Female"> 
+         <label for="Female">Female</label>  
+     <br><br>
+         <label for="Age">Age:</label>
+         <select id="age">
+         <option value="Below 18 years old">Below 18 years old</option>
+         <option value="Between 18-25 years old">Between 18-25 years old</option>
+         <option value="Between 25-40 years old">Between 25-40 years old</option>
+         <option value="Between 40-60 years old">Between 40-60 years old</option>
+         <option value="Above 60 years old">Above 60 years old</option></select>
+     </fieldset>
+    
+     <fieldset>
+        <legend>Food Satisfaction Survey:</legend>
+        <label>Scale Satisfaction:</label><br><br>
+        <input type="radio" name="Scale Satisfaction" value="Very Satisfied" id="Very Satisfied">
+        <label for="Very Satisfied">Very Satisfied</label>
+     <br>
+        <input type="radio" name="Scale Satisfaction" value="Satisfied" id="Satisfied">
+        <label for="Satisfied">Satisfied</label>
+     <br>
+        <input type="radio" name="Scale Satisfaction" value="Neutral" id="Neutral">
+        <label for="Neutral">Neutral</label>
+     <br>
+        <input type="radio" name="Scale Satisfaction" value="Dissatisfied" id="Dissatisfied">
+        <label for="Dissatisfied">Dissatisfied</label>
+     <br>
+        <input type="radio" name="Scale Satisfaction" value="Very Dissatisfied" id="Very Dissatisfied">
+        <label for="Very Dissatisfied">Very Dissatisfied</label>
+     </fieldset>
+    
+     <fieldset>
+        <legend>Additional Information</legend>
+        <label for="Comments">Comments:</label><br>
+        <textarea id="comments" name="comments" rows="7" cols="60" required></textarea>
+     </fieldset>
+    
+    <button type="submit">Submit</button>
+  </form>
+</div>        
+</main>
+</body>
+</html>
